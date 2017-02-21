@@ -21,4 +21,4 @@ qplot(L7Bump,Price,data=post1,color=I("#009900"),xlab="Live + 7 Bump (vs. Live+S
 
 #Post 1 table:
 setorder(post1,-L7Bump)
-post1[1:15,.(Name,`Price/pt`=Price,PriceRank,L7Bump,L7BumpRank)]
+post1[1:15,.(Name,`Price/pt`=Price,L7Bump,PriceRank,L7BumpRank)]
